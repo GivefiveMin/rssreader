@@ -36,7 +36,7 @@ public class FileUploadServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
 	// 기본 업로드 폴더
-	private final String UPLOAD_DIRECTORY = "resources/board"; // 물리 경로
+	private final String UPLOAD_DIRECTORY = "resources/board"; 
 	private final String UPLOAD_URL = "/resources/board"; // 웹 경로
 	
 	// 업로드 설정
